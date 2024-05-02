@@ -19,7 +19,6 @@
 
 
 
-
 ## Overview
 
 This project serves an educational purpose and is based on the **common core of 42 School**. Therefore, it is subject to educational restrictions. Please be aware of these restrictions before making any contributions.
@@ -36,7 +35,7 @@ This project aims to create a beautiful fractal visualizer with minilibX in C !
 Installation and compilation commands :
 
 ```
-git clone --recurse-submodules=yes https://github.com/Luma-3/fract-ol.git
+git clone --recursive https://github.com/Luma-3/fract-ol.git
 cd fract-ol
 cd lib/minilibx && ./configure && cd -
 make
@@ -52,6 +51,8 @@ For launch Fract-ol :
 
 An message appear and explain you how to use fract-ol ! 
 ### Key bind : 
-
+Arrow key for move fractal ! 
+C and V to change colors !
+mouse scroll , + and - for zoom in fractal !
 
 This work is published under the terms of **[42 Unlicense](https://github.com/gcamerli/42unlicense)**.
